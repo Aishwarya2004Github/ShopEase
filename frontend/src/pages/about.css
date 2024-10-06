@@ -1,0 +1,35 @@
+/* About.css */
+
+.parent-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the content to the right */
+    padding: 10px; /* Optional padding */
+}
+
+.about {
+    margin-left: auto; /* Pushes the section to the right */
+    width: 90%; /* Adjust as needed */
+    padding: 5px; /* Optional padding */
+     /* Optional background color */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.about h2 {
+    font-size: 24px; /* Adjust heading size as needed */
+    margin-bottom: 10px;
+}
+
+.about h3 {
+    font-size: 20px; /* Adjust subheading size as needed */
+    margin-top: 20px; /* Space above subheadings */
+}
+
+.about p, .about ul {
+    margin-bottom: 15px; /* Space below paragraphs and lists */
+}
+
+.about ul {
+    list-style-type: disc; /* Bullet points for list items */
+    margin-left: 20px; /* Indent for list */
+}

@@ -1,0 +1,35 @@
+/* Service.css */
+/* Common styles for parent container */
+
+.parent-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the content to the right */
+    padding: 20px; /* Optional padding */
+}
+
+.services {
+    margin-left: auto; /* Pushes the section to the right */
+    width: 80%; /* Adjust as needed */
+    padding: 20px; /* Optional padding */
+    /* Optional background color */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.services h2 {
+    font-size: 24px; /* Adjust heading size as needed */
+    margin-bottom: 10px;
+}
+
+.services p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+.services ul {
+    list-style-type: disc; /* Bullet points for list items */
+    margin-left: 20px; /* Indent for list */
+}
+
+.services li {
+    margin-bottom: 10px; /* Space between list items */
+}

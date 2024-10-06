@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+body {
+  position: relative; 
+  background: #0f0f10;
+  color: #fff;
+  overflow: auto;
+  overflow-x:hidden;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0; /* Position from the top */
+  left: 10px; /* Position from the left */
+  width: 100%; /* Cover full width */
+  height: 100%; /* Cover full height */
+  background: radial-gradient(circle at top left, rgb(255, 42, 0) -70%, #0f0f10 50%);
+  z-index: -5; /* Send it behind the content */
+}
+
+input,
+textarea {
+  color: #000;
+}
+/* Custom styles for the ProductCarousel component */
+
