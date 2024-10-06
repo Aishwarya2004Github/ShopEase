@@ -5,7 +5,7 @@ import Loader from "../../components/Loader";
 import { useLoginMutation } from "../../redux/api/usersApiSlice";
 import { setCredentials } from "../../redux/features/auth/authSlice";
 import { toast } from "react-toastify";
-import Logo from "../../../../backend/uploads/Logo.png"; // Import your logo
+import Logo from "../../../../uploads/Logo.png"; // Import your logo
 
 const Login = () => {
   const [email, setEmail] = useState("");

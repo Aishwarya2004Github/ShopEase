@@ -5,7 +5,7 @@ import Loader from "../../components/Loader";
 import { useRegisterMutation } from "../../redux/api/usersApiSlice";
 import { setCredentials } from "../../redux/features/auth/authSlice";
 import { toast } from "react-toastify";
-import Logo from "../../../../backend/uploads/Logo.png";
+import Logo from "../../../../uploads/Logo.png";
 
 const Register = () => {
   const [username, setName] = useState("");
