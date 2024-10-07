@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
@@ -10,5 +9,16 @@ export default defineConfig({
       "/uploads/": "http://localhost:5000",
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Splitting vendor (e.g., react) into its own chunk
+          vendor: ['react', 'react-dom'],
+        },
+      },
+    },
+    // Adjust the chunk size warning limit if needed
+    chunkSizeWarningLimit: 1000,  // Increase the limit (default is 500 kB)
+  },
 });
-//https://shopease-2-fol1.onrender.com
