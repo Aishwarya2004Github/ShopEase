@@ -5,8 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "http://localhost:5000",
-      "/uploads/": "http://localhost:5000",
+      "/api/": "https://shopease-k5s6.onrender.com",
+      "/uploads/": "https://shopease-k5s6.onrender.com",
     },
   },
   build: {
@@ -19,6 +19,6 @@ export default defineConfig({
       },
     },
     // Adjust the chunk size warning limit if needed
-    chunkSizeWarningLimit: 1000,  // Increase the limit (default is 500 kB)
+    chunkSizeWarningLimit: 5000,  // Increase the limit (default is 500 kB)
   },
 });

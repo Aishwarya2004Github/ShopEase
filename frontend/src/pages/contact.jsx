@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css'; // Adjust the path as necessary
+import './contact.css'; // Adjust the path as necessary
 
 const Contact = () => {
   
