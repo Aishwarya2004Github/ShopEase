@@ -27,3 +27,6 @@ Node.js: Our back-end services are powered by Node.js, providing a fast and scal
 
 # Conclusion
 At ShopEase, we are committed to delivering an exceptional online shopping experience. With our advanced technology stack and user-focused features, we strive to meet the diverse needs of our customers while continuously improving our platform. Join us on this journey and discover a world of convenient and enjoyable shopping!
+
+![Screenshot (248)](https://github.com/user-attachments/assets/e3a781b8-6d59-4e2a-871d-a5cd12a995ec)
+
